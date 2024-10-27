@@ -1,0 +1,10 @@
+{
+  "name": "pre-commit as a system package",
+  "id": "pre-commit",
+  "version": "1.0.0",
+  "description": "Pre-commit as a system package",
+  "options": {},
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
