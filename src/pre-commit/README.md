@@ -1,22 +1,24 @@
 
-# Pre-commit as a system pacakge
+# pre-commit as a system package (pre-commit)
 
-`pre-commit` devcontainer feature
-for those who don't care about the exact version,
-so it installs the latest version available from the distro repository.
+Pre-commit as a system package
 
-## Supported distros
-
-- Ubuntu >= 22.04
-- Debian >= 11
-- Alpine >= 3.20
-- Fedora >= 31
-- AlmaLinux, Rockylinux, CentOS Stream >= 9
-
-## Usage example
+## Example Usage
 
 ```json
 "features": {
     "ghcr.io/kadykov/devcontainer-features/pre-commit:1": {}
 }
 ```
+
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kadykov/devcontainer-features/blob/main/src/pre-commit/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
