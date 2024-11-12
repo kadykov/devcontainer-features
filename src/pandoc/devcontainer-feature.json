@@ -1,0 +1,10 @@
+{
+  "name": "pandoc as a system package",
+  "id": "pandoc",
+  "version": "1.0.0",
+  "description": "pandoc as a system package",
+  "options": {},
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
